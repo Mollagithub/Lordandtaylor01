@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [LordAndTaylor]" parallel="tests">
+  <parameter name="browser" value="op"/>
+  <test name="Oprea(failed)" parallel="tests">
+    <parameter name="browser" value="op"/>
+    <classes>
+      <class name="com.lordandTaylor.testsripts.LoginBaseFanctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="boundaryInfo"/>
+          <include name="emtyInfologin"/>
+          <include name="invalidEmailAddforReg"/>
+          <include name="SmSAlart"/>
+          <include name="vlaidUerLogin"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="newMemberRegistration"/>
+          <include name="verifyhomepagefaunctionality"/>
+          <include name="invalidRegistration"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="invlaidUerLogin"/>
+        </methods>
+      </class> <!-- com.lordandTaylor.testsripts.LoginBaseFanctionality -->
+    </classes>
+  </test> <!-- Oprea(failed) -->
+  <test name="htmlunit(failed)" parallel="tests">
+    <parameter name="browser" value="htmlunit"/>
+    <classes>
+      <class name="com.lordandTaylor.testsripts.LoginBaseFanctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="boundaryInfo"/>
+          <include name="emtyInfologin"/>
+          <include name="invalidEmailAddforReg"/>
+          <include name="SmSAlart"/>
+          <include name="vlaidUerLogin"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="newMemberRegistration"/>
+          <include name="verifyhomepagefaunctionality"/>
+          <include name="invalidRegistration"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="invlaidUerLogin"/>
+        </methods>
+      </class> <!-- com.lordandTaylor.testsripts.LoginBaseFanctionality -->
+    </classes>
+  </test> <!-- htmlunit(failed) -->
+  <test name="FFScript(failed)" parallel="tests">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="com.lordandTaylor.testsripts.LoginBaseFanctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="emtyInfologin"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="verifyhomepagefaunctionality"/>
+          <include name="beforeMethod"/>
+          <include name="invlaidUerLogin"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.lordandTaylor.testsripts.LoginBaseFanctionality -->
+    </classes>
+  </test> <!-- FFScript(failed) -->
+  <test name="ChromeScript(failed)" parallel="tests">
+    <parameter name="browser" value="ch"/>
+    <classes>
+      <class name="com.lordandTaylor.testsripts.LoginBaseFanctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="emtyInfologin"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="verifyhomepagefaunctionality"/>
+          <include name="beforeMethod"/>
+          <include name="invlaidUerLogin"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.lordandTaylor.testsripts.LoginBaseFanctionality -->
+    </classes>
+  </test> <!-- ChromeScript(failed) -->
+</suite> <!-- Failed suite [LordAndTaylor] -->

@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LordAndTaylor" verbose="3" parallel="tests" thread-count="5">
+
+
+	<test name="FFScript">
+ 		<parameter name="browser" value="ff"></parameter>
+    	<classes>
+     		<class name="com.lordandTaylor.testsripts.LoginBaseFanctionality"/>
+    	</classes>
+  	</test>
+
+  	<test name="ChromeScript">
+ 		<parameter name="browser" value="ch"></parameter>
+    	<classes>
+     		<class name="com.lordandTaylor.testsripts.LoginBaseFanctionality"/>
+    	</classes>
+  	</test>
+  		<test name="htmlunit">
+ 		<parameter name="browser" value="htmlunit"></parameter>
+    	<classes>
+     		<class name="com.lordandTaylor.testsripts.LoginBaseFanctionality"/>
+    	</classes>
+  	</test>
+  	<test name="InternetExppo">
+ 		<parameter name="browser" value="ie"></parameter>
+    	<classes>
+     		<class name="com.lordandTaylor.testsripts.LoginBaseFanctionality"/>
+    	</classes>
+  	</test>
+  	
+</suite>

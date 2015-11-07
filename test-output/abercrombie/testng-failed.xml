@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [abercrombie]" parallel="tests">
+  <parameter name="browser" value="ch"/>
+  <test name="FFScript(failed)" parallel="tests">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="com.lordandTaylor.testsripts.LoginBaseFanctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="emtyInfologin"/>
+          <include name="vlaidUerLogin"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="newMemberRegistration"/>
+          <include name="verifyhomepagefaunctionality"/>
+          <include name="beforeMethod"/>
+          <include name="invlaidUerLogin"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.lordandTaylor.testsripts.LoginBaseFanctionality -->
+    </classes>
+  </test> <!-- FFScript(failed) -->
+  <test name="ChromeScript(failed)" parallel="tests">
+    <parameter name="browser" value="ch"/>
+    <classes>
+      <class name="com.lordandTaylor.testsripts.LoginBaseFanctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="emtyInfologin"/>
+          <include name="vlaidUerLogin"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="newMemberRegistration"/>
+          <include name="verifyhomepagefaunctionality"/>
+          <include name="beforeMethod"/>
+          <include name="invlaidUerLogin"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.lordandTaylor.testsripts.LoginBaseFanctionality -->
+    </classes>
+  </test> <!-- ChromeScript(failed) -->
+</suite> <!-- Failed suite [abercrombie] -->
